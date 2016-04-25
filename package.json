@@ -1,0 +1,20 @@
+{
+  "name": "angular-playground",
+  "version": "1.0.0",
+  "description": "Fork and clone the repo.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slytton/angular-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slytton/angular-playground/issues"
+  },
+  "homepage": "https://github.com/slytton/angular-playground#readme"
+}
