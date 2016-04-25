@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Hello {{yourName}}!</h1>
+      <hr>
+      <div class="row">
+        <div class='form-horizontal'>
+          <div class='form-group'>
+            <label class='col-sm-2 control-label' for='your-name'>Name:</label>
+            <div class='col-sm-9'>
+              <input class='form-control' id='your-name' type="text" ng-model="yourName" placeholder="Enter a name here">
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+  <body>
+</html>
